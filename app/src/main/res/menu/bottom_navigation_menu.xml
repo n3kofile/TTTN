@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/button_Home"
+        android:title="Trang chủ"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/button_history"
+        android:title="Lịch sử"
+        android:visible="false"
+        android:icon="@drawable/arow"/>
+    <item android:id="@+id/button_phone"
+        android:title="Liên hệ"
+        android:visible="false"
+        android:icon="@drawable/phone"/>
+    <item android:id="@+id/button_historyb"
+        android:title="Lịch sử"
+        android:visible="false"
+        android:icon="@drawable/clock"/>
+    <item android:id="@+id/button_setting"
+        android:title="Cài đặt"
+        android:icon="@drawable/setting"/>
+</menu>

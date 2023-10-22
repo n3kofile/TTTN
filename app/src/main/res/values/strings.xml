@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TTTN</string>
+    <string name="app_role">teacher</string>
 </resources>
