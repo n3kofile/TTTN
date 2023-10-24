@@ -46,8 +46,8 @@ public class managerAdapter extends RecyclerView.Adapter<managerAdapter.ManagerV
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //onClickManager();
-                Toast.makeText( context, name, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, name, Toast.LENGTH_LONG).show();
+//                onClickManager();
             }
         });
     }
