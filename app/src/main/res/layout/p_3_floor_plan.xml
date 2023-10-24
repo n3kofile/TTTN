@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Tầng 3"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/notifications" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="30dp">
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="5"
+            android:rowCount="1"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R306"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R307"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R308"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R309"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R310"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R305"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R304"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R303"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R302"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="R301"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:background="@drawable/grey_bg"
+                android:textColor="@color/black"/>
+
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_shape"
+        android:text="Hoàn thành"
+        android:textAllCaps="false"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+    
+</LinearLayout>
