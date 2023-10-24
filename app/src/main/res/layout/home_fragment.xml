@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
+        app:elevation="0dp"
         android:background="@color/primary">
         <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"

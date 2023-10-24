@@ -47,7 +47,11 @@ public class managerAdapter extends RecyclerView.Adapter<managerAdapter.ManagerV
             @Override
             public void onClick(View view) {
                 Toast.makeText(context, name, Toast.LENGTH_LONG).show();
-//                onClickManager();
+                if (name.equals("Báo cáo sự cố")){
+                    onClickManager();
+                }else{
+                    Toast.makeText(context, name, Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
