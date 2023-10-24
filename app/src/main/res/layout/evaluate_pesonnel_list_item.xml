@@ -21,6 +21,7 @@
                 android:layout_height="wrap_content"
                 android:text="Người yêu cầu: "
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"/>
 
             <TextView
@@ -29,6 +30,7 @@
                 android:id="@+id/epli_name"
                 android:text="Nguyễn Trung Hải"
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:text="Phòng: "
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"/>
 
             <TextView
@@ -52,6 +55,7 @@
                 android:id="@+id/epli_rom_problem"
                 android:text="T3011 - Sự cố mạng"
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
@@ -67,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Thời gian: "
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black"/>
 
             <TextView
@@ -75,6 +80,7 @@
                 android:id="@+id/epli_date_time"
                 android:text="11:00  1 /3 /2023"
                 android:textSize="10dp"
+                android:fontFamily="@font/poppins"
                 android:textColor="@color/black" />
 
         </LinearLayout>
@@ -96,6 +102,7 @@
             android:gravity="center"
             android:text="Đánh giá"
             android:textSize="15dp"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/white"
             android:textStyle="bold"/>
 

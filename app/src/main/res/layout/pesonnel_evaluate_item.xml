@@ -12,8 +12,8 @@
         android:id="@+id/pei_rom"
         android:text="T11.01"
         android:textSize="14dp"
+        android:fontFamily="@font/poppins"
         android:textStyle="bold"
-        android:fontFamily="monospace"
         android:textColor="@color/black"
         android:layout_alignParentLeft="true"/>
 
@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Người đánh giá:"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="14dp"
             android:textStyle="bold"/>
@@ -40,6 +41,7 @@
             android:layout_weight="1"
             android:id="@+id/pei_name"
             android:text="Trần Bá Hộ"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"
             android:textSize="14dp"/>
     </LinearLayout>
@@ -62,6 +64,7 @@
             android:id="@+id/pei_point"
             android:text="4.0"
             android:textSize="10dp"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/black"/>
 
     </LinearLayout>
@@ -73,6 +76,7 @@
         android:layout_below="@+id/layout_name"
         android:layout_marginTop="8dp"
         android:text="Sự cố chưa hoàn thành theo đúng yêu cầu được "
+        android:fontFamily="@font/poppins"
         android:textColor="@color/black"
         android:textSize="14dp" />
 
