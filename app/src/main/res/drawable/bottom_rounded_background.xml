@@ -1,0 +1,9 @@
+<!-- rounded_bottom.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="0dp" android:left="0dp" android:top="0dp" android:bottom="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#2D5381" /> <!-- Màu nền -->
+            <corners android:topLeftRadius="0dp" android:topRightRadius="0dp" android:bottomLeftRadius="24dp" android:bottomRightRadius="24dp" /> <!-- Chỉ bo tròn phía dưới -->
+        </shape>
+    </item>
+</layer-list>
