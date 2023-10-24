@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/box_shadow">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/avatar"/>
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tv_name_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Trung Hải"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trưởng phòng IT"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/chevron2right"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

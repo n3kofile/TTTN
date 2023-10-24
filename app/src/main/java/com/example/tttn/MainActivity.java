@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private MyViewPagerAdapter mViewPagerAdapter;
     private ViewPager2 mViewpager2;
-    private Integer role = 0;
+    public String role = "admin";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
         init();
         mViewPagerAdapter = new MyViewPagerAdapter(this);
         mViewpager2.setAdapter(mViewPagerAdapter);
-        if (role==0){
+        if (role=="user"){
             mbottomNavigationView.getMenu().findItem(R.id.button_history).setVisible(true);
             mbottomNavigationView.getMenu().findItem(R.id.button_phone).setVisible(true);
-        }else if(role==1) {
+        }else if(role=="manager") {
             mbottomNavigationView.getMenu().findItem(R.id.button_history).setVisible(true);
         }else {
             mbottomNavigationView.getMenu().findItem(R.id.button_historyb).setVisible(true);
@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         bottomclick1();
+    }
+    public String getRole() {
+        return role;
     }
 
     private void bottomclick1() {
