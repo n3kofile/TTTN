@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -41,10 +42,12 @@ public class managerAdapter extends RecyclerView.Adapter<managerAdapter.ManagerV
         final manager manager  = listmanager.get(position);
         holder.tv_manager.setText(manager.getName());
         Glide.with(context).load(manager.getImage()).into(holder.img_manager);
+        String name = manager.getName();
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onClickManager();
+                //onClickManager();
+                Toast.makeText( context, name, Toast.LENGTH_SHORT).show();
             }
         });
     }

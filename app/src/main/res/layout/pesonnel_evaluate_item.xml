@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/gray_boder_radius_8pd_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pei_rom"
+        android:text="T11.01"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:id="@+id/layout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Người đánh giá:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:id="@+id/pei_name"
+            android:text="Trần Bá Hộ"
+            android:textColor="@color/black"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/star"
+            android:layout_marginRight="6dp"/>
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/pei_point"
+            android:text="4.0"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pei_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_name"
+        android:layout_marginTop="8dp"
+        android:text="Sự cố chưa hoàn thành theo đúng yêu cầu được "
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>
