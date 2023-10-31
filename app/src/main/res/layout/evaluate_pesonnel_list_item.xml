@@ -1,113 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:background="@drawable/gray_boder_left_radius_8pd_bg"
-        android:padding="12dp">
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#F1F4F5"
+            android:padding="12dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Người yêu cầu: "
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="wrap_content"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Người yêu cầu: "
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/epli_name"
+                    android:text="Nguyễn Trung Hải"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/epli_name"
-                android:text="Nguyễn Trung Hải"
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black"
-                android:textStyle="bold"/>
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phòng: "
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/epli_rom_problem"
+                    android:text="T3011 - Sự cố mạng"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thời gian: "
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/epli_date_time"
+                    android:text="11:00  1 /3 /2023"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Phòng: "
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/epli_rom_problem"
-                android:text="T3011 - Sự cố mạng"
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black"
-                android:textStyle="bold"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Thời gian: "
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/epli_date_time"
-                android:text="11:00  1 /3 /2023"
-                android:textSize="10dp"
-                android:fontFamily="@font/poppins"
-                android:textColor="@color/black" />
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:background="@drawable/blue_boder_right_radius_8pd_bg"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#2D5381"
             android:gravity="center"
-            android:text="Đánh giá"
-            android:textSize="15dp"
-            android:fontFamily="@font/poppins"
-            android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Đánh giá"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
 
 
+
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</androidx.cardview.widget.CardView>
