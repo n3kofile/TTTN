@@ -44,12 +44,12 @@
                 android:layout_height="100dp"
                 app:cardCornerRadius="50dp"
                 android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
                 android:shape="ring">
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:src="@drawable/hutaopicture"
-                    android:layout_gravity="center"
                     android:background="@drawable/circle_avatar"
                     />
             </androidx.cardview.widget.CardView>
