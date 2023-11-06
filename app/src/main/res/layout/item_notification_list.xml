@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:background="#F1F4F5">
+
+        <TextView
+            android:id="@+id/inl_notification_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Thông báo bổ sung bằng tốt nghiệp THPT SPRING 2023"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/title_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inl_notification_name"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Người đăng:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/inl_notification_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inl_notification_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/title_username"
+            android:fontFamily="@font/poppins"
+            android:text="nhuntq20"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_username"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Thời gian:"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/inl_notification_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inl_notification_username"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/title_time"
+            android:fontFamily="@font/poppins"
+            android:text="14/2/2023"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/inl_notification_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inl_notification_username"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/inl_notification_date"
+            android:fontFamily="@font/poppins"
+            android:text="14:20"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

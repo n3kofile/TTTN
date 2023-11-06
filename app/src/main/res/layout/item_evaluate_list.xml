@@ -26,29 +26,30 @@
             android:id="@+id/layout_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_centerHorizontal="true">
+            android:layout_below="@+id/pei_rom"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Người đánh giá:"
                 android:fontFamily="@font/poppins"
+                android:text="Người đánh giá:"
                 android:textColor="@color/black"
                 android:textSize="14dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/pei_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="6dp"
                 android:layout_weight="1"
-                android:id="@+id/pei_name"
-                android:text="Trần Bá Hộ"
                 android:fontFamily="@font/poppins"
+                android:text="Trần Bá Hộ"
                 android:textColor="@color/black"
-                android:textSize="14dp"/>
+                android:textSize="14dp" />
         </LinearLayout>
 
         <LinearLayout

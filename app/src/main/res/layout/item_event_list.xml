@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:background="#F1F4F5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_star"
+            android:src="@drawable/star"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/lei_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/img_star"
+            android:fontFamily="@font/poppins"
+            android:text="1/3/2023"
+            android:textColor="#0951A9"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/lei_event_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_toStartOf="@+id/img_cardview"
+            android:fontFamily="@font/poppins"
+            android:text="LỄ TÔN VINH SINH VIÊN TIÊU BIỂU-GODEN BEE AWARDS SUMMER 2022"
+            android:textColor="#0D3565"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_cardview"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/lei_event_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/event_image"
+                android:scaleType="centerCrop"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
