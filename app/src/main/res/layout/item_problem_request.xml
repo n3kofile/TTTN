@@ -24,14 +24,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sự cố máy chiếu hỏng"
-                android:textColor="#000000" /> <!-- Màu đen -->
+                android:textColor="#000000" />
             <TextView
                 android:textSize="16dp"
                 android:layout_weight="0.5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Thời gian"
-                android:textColor="#000000" /> <!-- Màu đen -->
+                android:textColor="#000000" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:textColor="#000000" /> <!-- Màu đen -->
+                    android:textColor="#000000" />
                 <LinearLayout
                     android:layout_weight="1"
                     android:layout_width="match_parent"
@@ -77,28 +77,28 @@
                         android:text="Toà T"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000" /> <!-- Màu đen -->
+                        android:textColor="#000000" />
                     <TextView
                         android:layout_weight="1"
                         android:textSize="13dp"
                         android:text="Phòng 1103"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000" /> <!-- Màu đen -->
+                        android:textColor="#000000" />
                     <TextView
                         android:layout_weight="1"
                         android:textSize="13dp"
                         android:text="9h45"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000" /> <!-- Màu đen -->
+                        android:textColor="#000000" />
                     <TextView
                         android:layout_weight="1"
                         android:textSize="13dp"
                         android:text="17/02/2023"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000" /> <!-- Màu đen -->
+                        android:textColor="#000000" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
