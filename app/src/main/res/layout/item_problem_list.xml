@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="#F1F4F5">
+
+        <TextView
+            android:id="@+id/ipl_problem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="Lỗi máy tính"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/title_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="4dp"
+            android:layout_toStartOf="@+id/ipl_problem_room"
+            android:fontFamily="@font/poppins"
+            android:text="Phòng: "
+            android:textSize="14dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ipl_problem_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="T1101"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"/>
+
+
+
+        <TextView
+            android:id="@+id/title_requestor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ipl_problem_name"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Người yêu cầu:"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ipl_requestor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ipl_problem_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/title_requestor_name"
+            android:fontFamily="@font/poppins"
+            android:text="nhuntq20"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/title_reciever_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_requestor_name"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Người tiếp nhận:"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ipl_reciever_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_requestor_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/title_reciever_name"
+            android:fontFamily="@font/poppins"
+            android:text="nhuntq20"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/title_requestor_name"
+            android:layout_marginTop="8dp"
+            android:text="Đúng giờ"
+            android:textSize="12dp"
+            android:textColor="#51D860"
+            android:fontFamily="@font/poppins"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
