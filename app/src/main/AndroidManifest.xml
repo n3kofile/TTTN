@@ -16,6 +16,24 @@
         android:theme="@style/Theme.TTTN"
         tools:targetApi="31">
         <activity
+            android:name=".YeuCauHoTroSuCo"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietLichSuBaoCao"
+            android:exported="false" />
+        <activity
+            android:name=".LichSu"
+            android:exported="false" />
+        <activity
+            android:name=".CaiDat"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
     </application>
