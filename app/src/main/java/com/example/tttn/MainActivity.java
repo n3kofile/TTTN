@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private MyViewPagerAdapter mViewPagerAdapter;
     private ViewPager2 mViewpager2;
-    public String role = "admin";
+    public String role = "user";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

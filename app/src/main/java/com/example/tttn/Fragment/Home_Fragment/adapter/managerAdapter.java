@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.tttn.Fragment.Home_Fragment.manager;
 import com.example.tttn.ListNS.ListNS;
+import com.example.tttn.Problem_request.Request_Activity;
 import com.example.tttn.R;
 
 import java.util.ArrayList;
@@ -47,12 +48,20 @@ public class managerAdapter extends RecyclerView.Adapter<managerAdapter.ManagerV
             @Override
             public void onClick(View view) {
                 Toast.makeText(context, name, Toast.LENGTH_LONG).show();
-//                onClickManager();
+                if (name.equals("Báo cáo sự cố")){
+                    onClickRequest();
+                }else{
+                    Toast.makeText(context, name, Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
     private void onClickManager(){
         Intent intent = new Intent(context, ListNS.class);
+        context.startActivity(intent);
+    }
+    private void onClickRequest(){
+        Intent intent = new Intent(context, Request_Activity.class);
         context.startActivity(intent);
     }
 
