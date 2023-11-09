@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/dovat"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:lineHeight="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/grey_bg"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/soluong"
+            android:text="số lượng :"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineHeight="12dp"
+            android:textColor="@color/black"
+            android:button="@drawable/custom_checkbox"
+            android:background="@drawable/grey_bg"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/check"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/check"
+            android:background="@drawable/grey_bg" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/mota"
+            android:hint="mô tả"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:lineHeight="12dp"
+            android:background="@drawable/grey_bg"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

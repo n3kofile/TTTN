@@ -2,15 +2,23 @@ package com.example.tttn;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager2.widget.ViewPager2;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private static final int FRAGMENT_HOME = 0;
@@ -31,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         init();
         mViewPagerAdapter = new MyViewPagerAdapter(this);
@@ -161,5 +170,30 @@ public class MainActivity extends AppCompatActivity {
             mViewpager2.setCurrentItem(4);
             mCurrentFragment = FRAGMENT_SETTING;
         }
+
+        setContentView(R.layout.room);
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerViewTaisan);
+
+
+        TaisanAdapter adapter = new TaisanAdapter(getSampleData());
+        recyclerView.setAdapter(adapter);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+
+    }
+
+    private List<Taisan> getSampleData() {
+        List<Taisan> data = new ArrayList<>();
+        data.add(new Taisan("ti vi", "1" , true , "" ));
+        data.add(new Taisan("đồng hồ", "1" , true , "" ));
+        data.add(new Taisan("bàn học", "21" , true , "" ));
+        data.add(new Taisan("Ghế", "40" , true , "" ));
+        data.add(new Taisan("remote", "1" , true , "" ));
+        data.add(new Taisan("Bút viết", "3" , true , "" ));
+        data.add(new Taisan("Xóa bảng", "1" , true , "" ));
+        data.add(new Taisan("Dây HDMI", "1" , true , "" ));
+        return data;
     }
 }
+
