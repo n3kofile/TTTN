@@ -6,6 +6,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.example.tttn.Adapter.TaisanAdapter;
+import com.example.tttn.Model.Taisan;
+
 import java.util.ArrayList;
 import java.util.List;
 

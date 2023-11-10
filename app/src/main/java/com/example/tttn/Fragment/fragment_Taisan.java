@@ -1,10 +1,14 @@
-package com.example.tttn;
+package com.example.tttn.Fragment;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.tttn.Adapter.TaisanAdapter;
+import com.example.tttn.Model.Taisan;
+import com.example.tttn.R;
 
 import java.util.ArrayList;
 import java.util.List;
