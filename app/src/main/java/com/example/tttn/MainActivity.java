@@ -17,6 +17,9 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import com.example.tttn.Adapter.TaisanAdapter;
+import com.example.tttn.Model.Taisan;
+
 import java.util.ArrayList;
 import java.util.List;
 

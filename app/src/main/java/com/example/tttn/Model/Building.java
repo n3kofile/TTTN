@@ -1,4 +1,4 @@
-package com.example.tttn;
+package com.example.tttn.Model;
 
 public class Building {
     String sotang;

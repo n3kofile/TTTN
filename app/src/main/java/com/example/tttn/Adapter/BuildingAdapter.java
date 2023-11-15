@@ -1,4 +1,4 @@
-package com.example.tttn;
+package com.example.tttn.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.tttn.Model.Building;
+import com.example.tttn.R;
 
 import java.util.List;
 
